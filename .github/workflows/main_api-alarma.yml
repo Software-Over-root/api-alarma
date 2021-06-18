@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'api-alarma'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fe39d0a50a1b437d805915e05dfeecfd }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_aac82e864c0d48bd8d8c8b36a169535f }}
         package: .
