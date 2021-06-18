@@ -1,5 +1,4 @@
 const nodemailer = require("nodemailer");
-const admin = require('firebase-admin');
 
 
 exports.inicio = (req, res, next) => {
