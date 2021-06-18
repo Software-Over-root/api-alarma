@@ -6,9 +6,9 @@ module.exports  = function(){
     router.get('/', conexion.inicio);
     router.post('/registro-codigo', conexion.confirmacion);
     router.post('/registro', conexion.registrar);
-    router.get('/login', conexion.login);
+    router.post('/login', conexion.login);
     router.put('/registrar-codigo', conexion.insertarConfirmarcion);
-    router.get('/general', conexion.general);
+    router.post('/general', conexion.general);
 
     return router;
 }
