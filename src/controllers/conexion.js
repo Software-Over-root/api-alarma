@@ -11,7 +11,7 @@ const db = admin.firestore();
 
 
 exports.inicio = (req, res, next) => {
-    res.send({"success": true, "type": "Hola mundo desde la API de seguridad de intrucion"});
+    res.send({"success": true, "type": "Hola mundo desde la API de seguridad de intrucion 2"});
 }
 
 exports.confirmacion = async (req, res, next) => {
