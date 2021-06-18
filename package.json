@@ -4,7 +4,7 @@
   "description": "API rest alarma de intrusion ultrasonico",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oscar Isaac Lopez Rojas, Gabriel Arzate de la Garza",
